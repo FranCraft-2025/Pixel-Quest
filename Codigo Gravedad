@@ -1,0 +1,19 @@
+al presionar bandera verde
+fijar [velocidad] a (0)
+
+por siempre
+    cambiar y por (velocidad)
+    cambiar [velocidad] por (-1)
+fin
+
+al presionar bandera verde
+fijar [velocidad] a (0)
+
+por siempre
+    si <no <tocando el color [verde]?>> entonces
+        cambiar [velocidad] por (-1)
+        cambiar y en (velocidad)
+    si no
+        fijar [velocidad] a (0)
+    fin
+fin
