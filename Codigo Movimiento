@@ -1,0 +1,10 @@
+al presionar bandera verde
+por siempre
+    si <tecla [flecha derecha] presionada?> entonces
+        cambiar x por (5)
+    fin
+
+    si <tecla [flecha izquierda] presionada?> entonces
+        cambiar x por (-5)
+    fin
+fin
